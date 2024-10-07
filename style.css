@@ -3,7 +3,15 @@
   --cor-de-fundo:  #EBECEE;
 }
 body{
+background-color: #EBECEE;
 
-  
+}
+h1{
+   background-color: var(--cor-de-fundo);
+}
+
+{
+margin: 0;
+padding: 0;
 }
 }
