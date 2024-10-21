@@ -17,6 +17,19 @@ align-items: center;
 display: flex;
 align-items: center;
 }
-.container__imagem{
-padding: 1em;   
+
+.container
+{
+display: flex;
+align-items: center;
+
+container__imagem{
+  padding: 1em;  
+}
+.lista-menu{
+    display: none;/*esconde o elemento*/
+}
+container__botao:checked~.lista-menu{
+
+    display: block;
 }
